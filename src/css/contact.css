@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: transparent;
+}
+.conmenu {
+    display: none;
+    text-align: end;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.contactmain{
+    width: 100%;
+    height: 750px;
+    background-color: black;
+}
+.contagmain {
+    padding-top: 48px;
+    height: 140px;
+}
+.contag1{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    height: 140px;
+    text-align: center;
+    align-items: center;
+}
+.contag2 {
+    position: absolute;
+    color: #787878;
+    opacity: 0.4;
+    font-size: 107px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    width: 100%;
+    font-weight: 800;
+}
+.contag3 {
+    position: absolute;
+    color: white;
+    font-weight: 900;
+    font-size: 48px;
+    width: 100%;
+}
+.contag3 span{
+    color: #1b74e4;
+}
+.consect2{
+    display: flex;
+    color: white;
+    padding-top: 111px;
+    padding-bottom: 40px;
+    column-gap: 92px;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.userdata1 {
+    width: 349px;
+    margin-left: auto;
+}
+.userdata1 h4 {
+    color: #1b74e4;
+}
+.userdata1 p {
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+    word-spacing: 2px;
+
+}
+.mailcont {
+    display: flex;
+    column-gap: 15px;
+    margin-top: 30px;
+    align-items: center;
+}
+.mailmini a{
+    color: white;
+}
+.mailcont i {
+    font-size: 37px;
+    color: #1b74e4;
+}
+.callicon i{
+    color: #1b74e4;
+    font-size: 41px;
+}
+.mailtag {
+    font-size: 15px;
+    color: cornflowerblue;
+    font-weight: 600;
+    width: 100px;
+    border-bottom: 2px double white;
+}
+.usermail {
+    margin-top: 10px;
+}
+.usercall{
+    margin-top: 25px;
+}
+.usermoreicon {
+    display: flex;
+    margin-top: 26px;
+    column-gap: 19px;
+}
+.useri1 {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    font-size: 18px;
+    color: white;
+    width: 35px;
+    background-color: #57595b;
+}
+.useri1:hover {
+    background-color: #155bb0;
+}
+.threeinput {
+    display: flex;
+    column-gap: 20px;
+}
+.userform {
+    width: 700px;
+}
+
+input[type="text"] {
+    width: 100%;
+    border-radius: 25px;
+    height: 50px;
+    filter: drop-shadow(2px 4px 6px black);
+    border: 1px solid rgb(107 107 107);
+    padding-left: 20px;
+    background-color: rgb(107 107 107);
+}
+input::placeholder {
+    color: white; /* Set your desired color */
+  }
+
+textarea {
+    margin-top: 37px;
+    resize: vertical;
+    height: 154px;
+    width: 100%;
+    padding-top: 11px;
+    border-radius: 22px;
+    padding-left: 20px;
+    background-color: rgb(107 107 107);
+}
+textarea::placeholder {
+    color: white; /* Set your desired color */
+  }
+.messagebtn{
+    width: fit-content;
+}
+.messagebtn  input{
+    width: 181px;
+    border-radius: 33px;
+    letter-spacing: 1px;
+    border: 1px solid #155bb0;
+    background-color: #155bb0;
+    filter: drop-shadow(2px 4px 6px black);
+   
+    margin-top: 30px;
+    color: white;
+    font-weight: 600;
+    height: 55px;
+}
+.messagebtn:hover input{
+    background-color: rgb(107 107 107);
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .conmenu {
+        display: block;
+    }
+    .contactmain{
+        height: 100%;
+    } 
+    .contagmain {
+        padding-top: 23px;
+        height: 94px;
+    }
+     .consect2{
+        flex-direction: column;
+        row-gap: 60px;
+        padding: 30px 20px 60px 20px;
+     }
+     .contag1 {
+        height: auto;
+     }
+     .userdata1 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .userform {
+        width: 100%;
+    }
+    .threeinput {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .usericons {
+        display: none;
+    }
+    .contag1{
+        max-width: none;
+    }
+    .contag2{
+        display: none;
+    }
+    .contag3{
+        position: static;
+        font-size: 39px;
+        width: auto;
+        margin: 0 auto;
+    }
+    }
+
+    @media only screen and (min-width: 576px) and (max-width: 768px) {
+        .contactmain{
+            height: 100%;
+        } 
+        .contagmain {
+            padding-top: 23px;
+            height: 94px;
+        }
+        .conmenu {
+            display: block;
+        }
+         .consect2{
+            flex-direction: column;
+            row-gap: 60px;
+            padding: 30px 85px 60px 85px;
+         }
+         .userdata1 {
+            width: 100%;
+            margin-left: 0;
+        }
+        .userform {
+            width: 100%;
+        }
+        .threeinput {
+            /* flex-direction: column; */
+            row-gap: 15px;
+        }
+        .usericons {
+            display: none;
+        }
+        .contag1{
+            max-width: none;
+        }
+        .contag2{
+            display: none;
+        }
+        .contag1{
+            height: auto;
+        }
+        .contag3{
+            position: static;
+            font-size: 39px;
+            width: auto;
+            margin: 0 auto;
+        }
+        }    
+
+        @media only screen and (min-width: 769px) and (max-width: 991px) {
+            .contactmain{
+                height: 100%;
+            } 
+            .contagmain {
+                padding-top: 23px;
+                height: 150px;
+            }
+            .conmenu {
+                display: block;
+            }
+             .consect2{
+                flex-direction: row;
+                row-gap: 60px;
+                column-gap: 60px;
+                padding: 30px 40px 60px 40px;
+             }
+             .userdata1 {
+                width: 255px;
+                margin-left: 0;
+            }
+            .userform {
+                width: 100%;
+            }
+            .threeinput {
+                /* flex-direction: column; */
+                row-gap: 15px;
+            }
+            .usericons {
+                display: none;
+            }
+            .contag1{
+                max-width: none;
+            }
+            .contag2{
+                display: block;
+            }
+            .contag3{
+                position: static;
+                font-size: 39px;
+                width: auto;
+                margin: 0 auto;
+            }
+            }        
+            @media only screen and (min-width: 991px) and (max-width: 1005px) {
+                .conmenu {
+                    display: block;
+                }
+            }
+            @media only screen and (min-width: 991px) and (max-width: 1200px) {
+                .contactmain{
+                    height: 100%;
+                } 
+                .contagmain {
+                    padding-top: 23px;
+                    height: 100%;
+                }
+                .usericons{
+                    display: block;
+                }
+                .icons{
+                    margin-right: 0;
+                }
+                 .consect2{
+                    flex-direction: row;
+                    row-gap: 60px;
+                    column-gap: 60px;
+                    padding: 30px 82px 60px 82px;
+                 }
+                 .userdata1 {
+                    width: 255px;
+                    margin-left: 0;
+                }
+                .userform {
+                    width: 100%;
+                }
+                .threeinput {
+                    /* flex-direction: column; */
+                    row-gap: 15px;
+                }
+                
+                .contag1{
+                    max-width: none;
+                    display: flex;
+                    height: 140px;
+                }
+                .contag2{
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                }
+                .contag3{
+                    position: absolute;
+                    font-size: 39px;
+                    width: 100%;
+                }
+                }     
+
+                @media only screen and (min-width: 1201px) and (max-width: 1400px) {
+                    .userdata1{
+                        width: 259px;
+                    }
+                    .consect2{
+                        column-gap: 60px;
+                    }
+                }

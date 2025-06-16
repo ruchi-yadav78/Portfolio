@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: transparent;
+}
+.abmenu {
+    display: none;
+}
+.abmain {
+    /* height: 100vh; */
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    background-image: url(../media/bg-main.jpeg);
+    padding-top: 25px;
+}
+
+.abwidth {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+.abhead {
+    /* max-width: 1340px; */
+    background-color: silver;
+    height: 70px;
+    margin: 0px auto;
+    background: rgb(21, 21, 22);
+    background: linear-gradient(90deg, rgba(21, 21, 22, 1) 3%, #4799ff 52%, rgba(17, 17, 18, 1) 100%);
+    display: flex;
+    filter: drop-shadow(2px 4px 6px gray);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0px 20px;
+
+}
+
+.name {
+    color: silver;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.name a {
+    color: silver;
+}
+
+.name span {
+    font-size: 40px;
+    color: white;
+    font-family: "Satisfy", cursive;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.navs {
+    display: flex;
+    column-gap: 26px;
+    font-weight: 600;
+}
+
+.navs a {
+    color: white;
+}
+
+.call-btn {
+    height: 50px;
+    width: 130px;
+    background-color: #595858;
+    color: white;
+    justify-content: center;
+    border-radius: 10px;
+    column-gap: 10px;
+    box-shadow: 1px 1px 22px black;
+    display: flex;
+    align-items: center;
+}
+
+.call-btn a {
+    color: white;
+}
+
+.aboutme {
+    display: flex;
+    height: 725px;
+    padding: 35px 0px;
+    column-gap: 114px;
+}
+
+.absection1 {
+    width: 27%;
+    background-color: #8888887a;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    filter: drop-shadow(2px 4px 6px black);
+    border-radius: 50px;
+}
+
+.abuser {
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.abuser img {
+    width: 100%;
+    border-radius: 20px;
+    height: 300px;
+    filter: drop-shadow(2px 4px 6px black);
+    object-fit: cover;
+}
+
+.abuserinfo {
+    color: white;
+    text-align: center;
+    padding: 9px 40px 0px 40px;
+}
+
+.abuserinfo h2 {
+    text-align: center;
+    font-size: 36px;
+    font-family: math;
+    padding: 0px 20px;
+    border-radius: 10px;
+    background-color: black;
+    font-weight: 600;
+    margin: 30px auto;
+    border-bottom: 6px double #1b74e4;
+    filter: drop-shadow(2px 4px 6px black);
+    width: fit-content;
+    color: white;
+}
+
+.abtag2 {
+    font-size: 32px;
+    background-color: black;
+    font-weight: 600;
+    margin: 0 16px;
+    margin-top: 22px;
+    border-radius: 8px;
+    border-bottom: 6px double #1b74e4;
+    filter: drop-shadow(2px 4px 6px black);
+    font-family: math;
+}
+.usericon a{
+    color: white;
+}
+.usericon {
+    justify-content: center;
+    display: flex;
+    column-gap: 15px;
+}
+
+.instaicon {
+    height: 40px;
+    width: 41px;
+    justify-content: center;
+    font-size: 18px;
+    display: flex;
+    border-radius: 9px;
+    align-items: center;
+    border-bottom: 6px double #1b74e4;
+    filter: drop-shadow(2px 4px 6px black);
+    background-color: black;
+}
+
+.absection2 {
+    width: 100%;
+    background-color: rgb(0 0 0 / 90%);
+    border-radius: 50px;
+    filter: drop-shadow(2px 4px 6px black);
+    padding: 34px;
+    color: white;
+}
+
+.absection2 h2 {
+    text-decoration: dotted;
+    border-bottom: 6px double #2a88ff;
+    width: fit-content;
+}
+
+.absection2 p {
+    font-size: 15px;
+    word-spacing: 2px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.skills h4 {
+    width: max-content;
+    border-bottom: 6px double #1b74e4;
+}
+
+.moreskills {
+    column-gap: 15px;
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.skills1 {
+    text-align: center;
+    color: white;
+}
+
+.skills1 img {
+    height: 65px;
+    width: 65px;
+    border-radius: 5px;
+}
+
+.skills1 h6 {
+    border-radius: 3px;
+    letter-spacing: 2px;
+    background-color: #4e4e4e;
+    margin-top: 10px;
+    filter: drop-shadow(2px 4px 6px black);
+    padding: 3px;
+    font-size: 14px;
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    .abmenu {
+        text-align: end;
+        display: block;
+        padding-right: 25px;
+    }
+   
+    .abhead {
+        display: none;
+    }
+
+    .abmain {
+        height: 100%;
+    }
+    .abuser{
+        width: 273px;
+    }
+    .abuser img{
+        height: 250px;
+    }
+    .aboutme {
+        flex-direction: column;
+        height: 100%;
+        padding: 35px 13px;
+        row-gap: 43px;
+    }
+
+    .abuserinfo {
+        padding: 12px 20px 30px 20px;
+    }
+
+    .absection1 {
+        width: auto;
+        background-color: #626262e3;
+        flex-direction: column;
+    }
+    .moreskills {
+        row-gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .skills h4 {
+        margin-top: 35px;
+    }
+    .abtag2 {
+        font-size: 27px;
+        margin: 0 0px;
+    }    
+     
+}
+
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+    .abmenu {
+        text-align: end;
+        display: block;
+        padding-right: 25px;
+    }
+    .abhead {
+        display: none;
+    }
+
+    .abmain {
+        height: 100%;
+    }
+    .abuser{
+        width: 273px;
+    }
+    .abuser img{
+        height: 250px;
+    }
+    .aboutme {
+        flex-direction: column;
+        height: 100%;
+        row-gap: 43px;
+    }
+
+    .abuserinfo {
+        padding: 12px 20px 30px 20px;
+    }
+
+    .absection1 {
+        width: auto;
+        background-color: #626262e3;
+        margin: 0 60px;
+        flex-direction: column;
+    }
+    .moreskills {
+        row-gap: 20px;
+        column-gap: 60px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .skills h4 {
+        margin-top: 35px;
+    }
+    .skills1 h6 {
+        margin: 14px auto;
+    }
+    .abtag2 {
+        font-size: 27px;
+        margin: 0 0px;
+    } 
+    .absection2 {
+        width: auto;
+       margin: 0 60px;
+    }  
+     
+}
+@media only screen and (min-width: 769px) and (max-width: 1000px) {
+    .abmenu {
+        text-align: end;
+        display: none;
+        padding-right: 25px;
+    }
+
+    .abmain {
+        height: 100%;
+    }
+    .abuser{
+        width: 273px;
+    }
+    .abuser img{
+        height: 250px;
+    }
+    .aboutme {
+        flex-direction: column;
+        height: 100%;
+        row-gap: 43px;
+    }
+
+    .abuserinfo {
+        padding: 12px 20px 30px 20px;
+    }
+
+    .absection1 {
+        width: auto;
+        background-color: #626262e3;
+        margin: 0 100px;
+        flex-direction: column;
+    }
+    .moreskills {
+        row-gap: 20px;
+        column-gap: 60px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .skills h4 {
+        margin-top: 35px;
+    }
+    .skills1 h6 {
+        width: 75%;
+        margin: 14px auto;
+    }
+    .abtag2 {
+        font-size: 27px;
+        margin: 0 0px;
+    } 
+    .absection2 {
+        width: auto;
+       margin: 0 100px;
+    }  
+    .abhead {
+        display: flex;
+    }
+}
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+    .abuserinfo {
+        padding: 9px 9px 0px 9px;
+    }
+    .aboutme {
+        height: 100%;
+        column-gap: 40px;
+        padding: 35px 20px;
+    }
+    .absection1 {
+        width: 100%;
+    }
+    .abuser img {
+        width: 235px;
+        height: 280px;
+    }
+    .abuserinfo h2 {
+        font-size: 28px;
+    }
+    .abuser {
+        width: 100%;
+    }
+    .abtag2 {
+        font-size: 25px;
+    }
+
+    .absection2 p {
+        font-size: 14px;
+    }
+    .absection2 {
+        padding: 24px;
+    }
+    .absection1 {
+        width: 290px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1360px) {
+    .aboutme {
+        padding: 35px 20px;
+        column-gap: 80px;
+
+    }
+    .abuser {
+        width: 305px;
+    }
+    .abtag2{
+        font-size: 25px;
+    }
+    .abuserinfo h2 {
+        font-size: 28px;
+    }
+}
