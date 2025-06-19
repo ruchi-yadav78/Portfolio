@@ -8,6 +8,28 @@ export default function Projectcont() {
   return (
     <div>
       <div class="projectall">
+         <div className="promenu">
+                <button className="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i className="fa-solid fa-bars-staggered"></i></button>
+        
+                <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <div className="offcanvas-header">
+                    <h5 id="offcanvasRightLabel"></h5>
+                    <button
+                      type="button"
+                      className="btn-close text-reset"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div className="offcanvas-body">
+                    <Link to="/"><div className="togg-tag1"><i className="fa-solid fa-house-chimney"></i> HOME</div></Link>
+                    <Link to="/about"> <div className="togg-tag1"><i className="fa-solid fa-user"></i> ABOUT ME</div></Link>
+                    <Link to="/project"><div className="togg-tag1"><i className="fa-solid fa-briefcase"></i> WORKS</div></Link>
+                    <Link to="/contact"><div className="togg-tag1"><i className="fa-solid fa-envelope"></i> CONTACT</div></Link>
+                  </div>
+                </div>
+              </div>
+        
       <div class="projectmain">
         <div class="prohead">
           <div class="abhead">

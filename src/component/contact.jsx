@@ -33,22 +33,9 @@ export default function Contactcont() {
   return (
     <div className="contactmain">
       <div className="conmenu">
-        <button
-          className="btn btn-primary"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasRight"
-          aria-controls="offcanvasRight"
-        >
-          <i className="fa-solid fa-bars-staggered"></i>
-        </button>
+        <button className="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i className="fa-solid fa-bars-staggered"></i></button>
 
-        <div
-          className="offcanvas offcanvas-end"
-          tabindex="-1"
-          id="offcanvasRight"
-          aria-labelledby="offcanvasRightLabel"
-        >
+        <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
           <div className="offcanvas-header">
             <h5 id="offcanvasRightLabel"></h5>
             <button
@@ -102,7 +89,7 @@ export default function Contactcont() {
             </div>
           </div>
           <div className="usermoreicon">
-          <Link to="https://www.instagram.com/yadav_ruchi0804?igsh=MXZ4cnAwbng2dnZuaw==" target="_blank"><div className="useri1"><i className="fa-brands fa-instagram"></i></div></Link>
+            <Link to="https://www.instagram.com/yadav_ruchi0804?igsh=MXZ4cnAwbng2dnZuaw==" target="_blank"><div className="useri1"><i className="fa-brands fa-instagram"></i></div></Link>
             <Link to="https://wa.me/7802071030?text=Can%20you%20provide%20more%20details%20about%20char%20dham%20yatra." target="_blank"><div className="useri1"><i className="fa-brands fa-whatsapp"></i></div> </Link>
             <Link to="/" target="_blank"><div className="useri1"><i className="fa-brands fa-linkedin-in"></i></div></Link>
             <Link to="/" target="_blank"><div className="useri1"><i className="fa-brands fa-github"></i></div></Link>
@@ -113,10 +100,10 @@ export default function Contactcont() {
           <form onSubmit={Sendmail}>
             <div className="threeinput">
               <input
-                type="text" placeholder="Your name" name="name" onChange={(e) => {setName(e.target.value);}}/>
-              <input type="text" placeholder="Your email" name="email" onChange={(e) => { setEmail(e.target.value);}}/>
+                type="text" placeholder="Your name" name="name" onChange={(e) => { setName(e.target.value); }} />
+              <input type="text" placeholder="Your email" name="email" onChange={(e) => { setEmail(e.target.value); }} />
             </div>
-            <textarea name="message" placeholder="Your Message" onChange={(e) => { setMessage(e.target.value);}} ></textarea>
+            <textarea name="message" placeholder="Your Message" onChange={(e) => { setMessage(e.target.value); }} ></textarea>
             <div className="messagebtn">
               <input type="submit" value="SEND MESSAGE" name="submit" />
             </div>

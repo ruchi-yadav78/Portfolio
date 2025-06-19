@@ -71,10 +71,36 @@
     margin-right: auto;
     border-bottom: 6px double cornflowerblue;
 }
-
+.promenu {
+     display: none;
+   }
 @media only screen and (min-width: 320px) and (max-width: 500px) {
 
   .project1 {
     padding: 50px 20px;
   }
+  .projectmain {
+    display: none;
+  }
+  .promenu {
+    display: block;
+    margin-right: 20px;
+    text-align: right;
+    padding-top: 20px;
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) { 
+   .projectmain {
+    display: none;
+  }
+   .promenu {
+    display: block;
+    margin-right: 20px;
+    text-align: right;
+    padding-top: 20px;
+   }
+}
+@media only screen and (min-width: 768px) and (max-width: px) { 
+   
 }

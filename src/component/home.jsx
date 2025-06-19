@@ -32,7 +32,7 @@ export default function Homecont() {
                 <div class="tag2">Ruchi Yadav</div>
                 <div class="tag3">I am Frontend Developer </div>
                 <div class="abme">As a dedicated Frontend Developer, I specialize in crafting clean, responsive, and interactive web applications. I am passionate about turning design concepts into seamless digital experiences. </div>
-                <a href="/ruchiyadav.pdf" download><button class='downbtn'>DOWNLOAD CV <div class="downicon"><i class="fa-solid fa-download"></i></div></button></a>
+                <a href="/Ruchi-Yadav.pdf" download><button class='downbtn'>DOWNLOAD CV <div class="downicon"><i class="fa-solid fa-download"></i></div></button></a>
               </div>
 
               <div class="icons">
