@@ -138,10 +138,10 @@ export default function Contactcont() {
               </Link>
             </div>
             <div className="icon1">
-              <a href="/project">
+              <Link to="/project">
                 <i className="fa-solid fa-briefcase"></i>
                 <span className="tooltip">Portfolio</span>
-              </a>
+              </Link>
             </div>
             <div className="icon1">
               <Link to="/contact">
