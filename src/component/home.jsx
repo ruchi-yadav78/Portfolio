@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/home.css';
-import img1 from '../media/girl3.png';
+import img1 from '../media/ruhi4.jpeg';
 import { Link } from "react-router-dom";
 export default function Homecont() {
   return (

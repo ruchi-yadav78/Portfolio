@@ -58,7 +58,7 @@ a{
 .emp-photos img{
     height: 100%;
     width: 100%;
-    object-position: bottom;
+    object-position: center -27px;
     object-fit: cover;
     filter: drop-shadow(2px 4px 6px black);
     border-radius: 10px;
@@ -201,7 +201,7 @@ a{
     text-decoration: none;
   }
   .offcanvas {
-    background-color: #3f3a3a;
+    background-color: #000;
   }
   .btn-close{
     background-color: #fff;
@@ -398,8 +398,8 @@ a{
         width: 412px;
     }
     .emp-photos {
-        height: 393px;
-        width: 400px;
+        height: 425px;
+        width: 335px;
     }
     .main-conts {
         height: 100vh;
