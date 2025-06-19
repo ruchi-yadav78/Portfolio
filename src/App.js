@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Router, Routes, Route, HashRouter } from "react-router-dom";
 import Home from './page/home';
 import About from './page/about';
 import Contact from './page/contact';
@@ -8,6 +8,7 @@ import Project from './page/project';
 
 function App() {
   return (
+      <HashRouter>
     <Router>
     <Routes>
       <Route path="/" element={<Home />} />
@@ -16,6 +17,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
     </Routes>
   </Router>
+  </HashRouter>
   );
 }
 
