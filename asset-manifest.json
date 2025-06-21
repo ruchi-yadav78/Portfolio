@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.cb7d7538.css",
-    "main.js": "/Portfolio/static/js/main.550247a8.js",
+    "main.css": "/Portfolio/static/css/main.7add3e59.css",
+    "main.js": "/Portfolio/static/js/main.c3deee0f.js",
     "static/media/agruco.png": "/Portfolio/static/media/agruco.6e2dab30875520fca533.png",
     "static/media/craftycode.png": "/Portfolio/static/media/craftycode.c152e0e51a4e594bcd92.png",
     "static/media/buynest.png": "/Portfolio/static/media/buynest.40c109f76ea92cf36513.png",
     "static/media/bg-main.jpeg": "/Portfolio/static/media/bg-main.971b7f50d73fe2c5663a.jpeg",
+    "static/media/php.png": "/Portfolio/static/media/php.aa680f57bf75b5d5acdc.png",
     "static/media/reaclogo.jpg": "/Portfolio/static/media/reaclogo.ee618307265038b97d52.jpg",
-    "static/media/girl3.png": "/Portfolio/static/media/girl3.a6afc48175644ba70613.png",
     "static/media/ruhi4.jpeg": "/Portfolio/static/media/ruhi4.42a6129c7749e2b6bcf4.jpeg",
+    "static/media/mysql.png": "/Portfolio/static/media/mysql.60fe462b4dec8bbc0292.png",
     "static/media/csslogo.jpg": "/Portfolio/static/media/csslogo.ff483868690429729ed0.jpg",
     "static/media/htmllogo.jpg": "/Portfolio/static/media/htmllogo.180e26b22c384d8dcc4a.jpg",
+    "static/media/github2.jpg": "/Portfolio/static/media/github2.ceb5247cda37a930d454.jpg",
     "static/media/vitejs.jfif": "/Portfolio/static/media/vitejs.61348098d3d6609bfb5b.jfif",
     "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
-    "main.cb7d7538.css.map": "/Portfolio/static/css/main.cb7d7538.css.map",
-    "main.550247a8.js.map": "/Portfolio/static/js/main.550247a8.js.map"
+    "main.7add3e59.css.map": "/Portfolio/static/css/main.7add3e59.css.map",
+    "main.c3deee0f.js.map": "/Portfolio/static/js/main.c3deee0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb7d7538.css",
-    "static/js/main.550247a8.js"
+    "static/css/main.7add3e59.css",
+    "static/js/main.c3deee0f.js"
   ]
 }
